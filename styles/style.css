@@ -20,10 +20,8 @@
   min-block-size: 100dvb;
   background-attachment: fixed;
   background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
   font-family: var(--main-font);
-  font-variation-settings: var(--text-weight);
+  font-variation-settings: 'wght' var(--text-weight), 'Inter', 'sans-serif';
   color: var(--accent-color);
   background-color: var(--main-color);
   background-image: var(--background-gradient);
@@ -332,7 +330,7 @@
 
 .dialog__button {
   grid-column: 1 / 3;
-  padding: 9px 17px;  
+  padding: 9px 17px;
   text-transform: uppercase;
 }
 
