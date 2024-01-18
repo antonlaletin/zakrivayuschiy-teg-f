@@ -89,8 +89,8 @@
   display: block;
   width: 100%;
   transform: scale(0);
-  height: 2px;
   margin-block-start: 2px;
+  height: 2px;
   background-color: var(--accent-color);
   transition: transform 0.3s ease;
   transform-origin: 0;
