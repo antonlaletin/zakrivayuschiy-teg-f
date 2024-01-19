@@ -146,7 +146,6 @@
 
 .image-wrapper {
   position: relative;
-  padding: 2px 0;
   outline: 2px solid var(--accent-color);
 }
 
@@ -319,7 +318,7 @@
   text-transform: uppercase;
 }
 
-#dialog__save[open] .floppy__footer {
+#dialog__save[open] .floppy__diskette {
   width: 39px;
   height: 39px;
 }
@@ -330,7 +329,7 @@
   text-transform: uppercase;
 }
 
-@media (width >= 1440px) {
+@media (width >= 696px) {
 
   .header {
     padding: 140px 0 20px;
@@ -339,10 +338,14 @@
   .image-wrapper__decor {
     right: 25px;
   }
-}
-  @media (width < 1440px) {
 
-    .diskette__button {
+  .image-wrapper {
+    padding: 2px;
+  }
+}
+@media (width < 696px) {
+
+  .diskette__button {
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -357,9 +360,6 @@
 
   .header {
     padding: 125px 0 20px;
-  }
-  .image-wrapper {
-    margin-block-end: -5px;
   }
 }
 
