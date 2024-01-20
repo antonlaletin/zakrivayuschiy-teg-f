@@ -323,9 +323,13 @@
   height: 39px;
 }
 
-.dialog__button {
+.method-dialog {
+  display: grid;
   grid-column: 1 / 3;
-  padding: 9px 17px;
+}
+
+.dialog__button {
+  padding: 8px 19px;
   text-transform: uppercase;
 }
 
